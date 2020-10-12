@@ -8,7 +8,7 @@ public class UserView {
 		User u = new Userr("Tomas","Espinoza Rojaz"+16);
 		UserController b = new UserController(u);
 		c=b.imprimir();
-		System.out.println("Mi nombre y edad es : "+c);
+		System.out.println("Mi nombre: "+c);
 	}
 	
 }
